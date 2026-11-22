@@ -1,0 +1,43 @@
+## .NET build output
+bin/
+obj/
+
+## Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+*.userprefs
+
+## Rider / JetBrains
+.idea/
+*.DotSettings.user
+
+## NuGet
+*.lock.json
+packages/
+*.nupkg
+nuget.config.local
+
+## OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+## Sensitive / local credentials
+appsettings.local.json
+*.pfx
+*.key
+*.pem
+secrets.json
+local.settings.json
+
+## Database dumps and backups
+*.sql
+*.bak
+*.dump
+
+## Logs
+*.log
+logs/
